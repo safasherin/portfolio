@@ -1,0 +1,123 @@
+.intro{
+    display:flex;
+    height:100vh;
+}
+
+.iLeft{
+flex:1;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.iRight{
+    flex:1;
+    position: relative;
+}
+ .iLeftWrapper{
+     padding:30px;
+     height:67%;
+     width:100%;
+     /* clip-path: circle(60.5% at 0 31%);      */
+     clip-path: circle(73.3% at 6% 16%);
+     background-color: rgb(143, 115, 233);
+     padding-top: 229px;
+     padding-left: 20px;
+     display: flex;
+     flex-direction: column;
+     /* padding-top:450px; */
+     /* justify-content:start; */
+     
+}
+
+.iTitle{
+   
+        height: 50px;
+        overflow: hidden;
+      
+    /* height:3rem;
+    overflow: hidden */
+}
+.iTitleWrapper{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate ;
+}
+
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{ transform: translateY(-100px);}
+    75%{ transform: translateY(-150px);}
+    100%{ transform: translateY(-200px);}
+}
+.iTitleItem{
+    height: 50px;
+    font-size: 30px;
+    /* height: 3rem;
+    font-size: xx-large; */
+    font-weight: bold;
+    color:rgb(229, 233, 26);
+    
+    display: flex;
+    align-items: center;
+}
+.iDesc{
+    width:40%;
+    padding-top: 30px;
+    
+}
+
+.imgScroll{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+   
+}
+/* .imgBackground{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+   
+    background-color: lawngreen;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top:0;
+   left: 0;
+
+} */
+.iImg{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  
+    position: absolute;
+}
+
+@media screen and (max-width:450px){
+    .intro{
+        flex-direction: column;
+    }
+    .iLeftWrapper{
+width:100%;
+        padding-top: 100px;
+        clip-path: circle(95.8% at 50% 0);
+        display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+    }
+    .iDesc{
+        display: none;
+    }
+.iTitleWrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+  
+}
