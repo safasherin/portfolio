@@ -13,13 +13,13 @@ export default function intro() {
                     <div className="iTitle">
                         <div className="iTitleWrapper">
                             <div className="iTitleItem">Web Developer</div>
-                            <div className="iTitleItem">Content Creator</div>
-                            {/* <div className="iTitleItem">Calligrapher</div> */}
+                            <div className="iTitleItem">Front End Developer</div>
+                            <div className="iTitleItem">Back End Developer</div>
 
                         </div>
                     </div>
                     <p className="iDesc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        I build web applications.
 
                     </p>
 

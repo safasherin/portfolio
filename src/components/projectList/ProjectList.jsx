@@ -7,8 +7,8 @@ export default function ProjectList() {
         <div className="pl">
             <div className="pl-texts">
                 <h1 className="pl-title">My projects</h1>
-                <p className="pl-desc">Hi, here you can see my projects. The tools I used for these
-                    projects are ReactJS, NodeJs, Javascript, Express, Mongodb, Heroku, Pixel, undraw.io etc...Hope you will like!!! </p>
+                <p className="pl-desc">Hi, you can find the projects I worked on below. I primarily build full stack applications (Front End + Back End development) on MERN stack.
+                    I use MongoDB, ReactJS, Express, NodeJS, Heroku etc. in my development works. </p>
             </div>
             <div className="pl-lists">
                 {projects.map((item) => (
