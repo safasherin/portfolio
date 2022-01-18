@@ -4,7 +4,7 @@
 export const projects = [
     {
         id: 1,
-        img: "https://res.cloudinary.com/dv3uj18zo/image/upload/v1642504981/portfolio/blogpost_nxllhn.png",
+        img: "https://res.cloudinary.com/dv3uj18zo/image/upload/v1642505031/portfolio/questionnaire_jq8dar.png",
         link: "https://question-board-app-frontend.herokuapp.com/",
     },
     {
