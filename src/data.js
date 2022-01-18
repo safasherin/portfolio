@@ -1,6 +1,6 @@
 
-import questionnaire from "./images/questionnaire.png"
-import blogpost from "./images/blogpost.png"
+// import questionnaire from "./images/questionnaire.png"
+// import blogpost from "./images/blogpost.png"
 export const projects = [
     {
         id: 1,

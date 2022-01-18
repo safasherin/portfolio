@@ -1,5 +1,5 @@
 import React from 'react';
-import women from "../../images/women.png";
+// import women from "../../images/women.png";
 import './intro.css';
 export default function intro() {
     return (
