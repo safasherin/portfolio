@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         id: 2,
-        img: "https://res.cloudinary.com/dv3uj18zo/image/upload/v1642504981/portfolio/blogpost_nxllhn.png",
+        img: "https://res.cloudinary.com/dv3uj18zo/image/upload/v1642510521/portfolio/blog_q8ov5q.png",
         link: "https://blogidea-frontend.herokuapp.com/",
     },
     {
